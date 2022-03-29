@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(/css/medias.css);
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 500;
+    line-height: 10px;
+    margin-right: 10px;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 95%;
+    height: 2px;
+    background: #000;
+    transition: .2s ease-out;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+    background: #007bff;
+}
+
+.jumbotron p {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.jumbotron img[alt="bg-img"] {
+    height: 400px;
+}
+
+.jumbotron .btn {
+    transition: .5s;
+}
+
+.jumbotron .btn:hover {
+    transform: translateY(10px);
+}
