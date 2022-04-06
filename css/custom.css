@@ -53,3 +53,14 @@ body {
     height: 3px;
     background: #007bff;
 }
+
+.new-box{
+    transition: .3s;
+}
+.new-box:hover{
+    transform: translateY(-10px) ;
+}
+
+.principal-new-img{
+    margin-top: 40px;
+}
