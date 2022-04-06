@@ -29,19 +29,27 @@ body {
     background: #007bff;
 }
 
-.jumbotron p {
+.Home p {
     font-weight: 500;
     font-size: 1.1em;
+    max-width: 70%;
 }
 
-.jumbotron img[alt="bg-img"] {
-    height: 400px;
-}
-
-.jumbotron .btn {
+.Home .btn {
     transition: .5s;
 }
 
-.jumbotron .btn:hover {
+.Home .btn:hover {
     transform: translateY(10px);
+}
+
+.news {
+    margin-top: 100px;
+}
+
+.news::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #007bff;
 }
